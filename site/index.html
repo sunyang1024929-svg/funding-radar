@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="每日更新的中国与全球公司融资追踪。">
+  <title>融资雷达 | 近期公司融资追踪</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="brand-lockup">
+      <a class="brand" href="./">融资雷达</a>
+      <span class="edition">DAILY FUNDING INTELLIGENCE</span>
+    </div>
+    <div class="status" aria-live="polite">
+      <span class="status-dot"></span>
+      <span id="updated-at">加载数据中</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div>
+        <p class="eyebrow">CAPITAL SIGNALS / CHINA FIRST</p>
+        <h1>近期融资<br><em>公司追踪</em></h1>
+      </div>
+      <p class="lede">面向团队共享的每日融资情报。优先追踪中国公司，保留来源与原始披露，帮助快速发现新机会。</p>
+    </section>
+
+    <section class="control-bar" aria-label="融资信息筛选">
+      <label class="search-field">
+        <span>搜索</span>
+        <input id="search-input" type="search" placeholder="公司、行业、轮次或来源">
+      </label>
+      <label class="select-field">
+        <span>行业</span>
+        <select id="industry-filter"><option value="">全部行业</option></select>
+      </label>
+      <label class="select-field">
+        <span>时间</span>
+        <select id="period-filter">
+          <option value="all">全部时间</option>
+          <option value="7">最近 7 天</option>
+          <option value="30">最近 30 天</option>
+          <option value="90">最近 90 天</option>
+        </select>
+      </label>
+      <div class="market-toggle" role="group" aria-label="市场筛选">
+        <button class="market-button is-active" data-market="China" type="button">中国公司</button>
+        <button class="market-button" data-market="Global" type="button">全球公司</button>
+      </div>
+    </section>
+
+    <section class="summary-line">
+      <p id="result-summary">正在整理融资事件</p>
+      <a class="download-link" href="../近期融资公司追踪.xlsx">下载 Excel ↗</a>
+    </section>
+
+    <section class="tracker" aria-live="polite">
+      <div class="table-head" aria-hidden="true">
+        <span>公司 / 行业</span>
+        <span>融资时间</span>
+        <span>规模 / 轮次</span>
+        <span>来源</span>
+      </div>
+      <div id="records" class="records"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <strong>没有匹配的融资记录</strong>
+        <p>尝试清除搜索词或放宽筛选条件。</p>
+      </div>
+      <div id="error-state" class="empty-state" hidden>
+        <strong>暂时无法加载融资数据</strong>
+        <p>请刷新页面后重试。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>仅收录公开报道的股权融资、战略融资及可明确归属公司的融资事件。</p>
+    <p>融资规模以公开披露为准，美元统一按 1 USD = 7.20 CNY 估算。</p>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
