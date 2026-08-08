@@ -28,6 +28,20 @@
     "fetchedAt": "2026-08-07T11:30:00+08:00"
   },
   {
+    "companyName": "RoboParty（萝博派对）",
+    "industry": "具身智能 / 人形机器人",
+    "financingDate": "2026-08-04",
+    "amountText": "近 5 亿元人民币",
+    "amount": null,
+    "currency": "CNY",
+    "round": "天使++轮及 Pre-A 轮",
+    "market": "China",
+    "sourceName": "快科技（新浪财经转载）",
+    "sourceUrl": "https://finance.sina.com.cn/tech/roll/2026-08-04/doc-inimchzp5821502.shtml",
+    "verification": "媒体交叉核验",
+    "fetchedAt": "2026-08-08T12:00:00+08:00"
+  },
+  {
     "companyName": "飞捷科思",
     "industry": "半导体",
     "financingDate": "2026-08-06",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T03:41:02.119Z",
+  "generatedAt": "2026-08-08T03:44:41.482Z",
   "records": [
     {
       "companyName": "可灵 AI",
@@ -45,9 +45,9 @@
       "verification": "已核验",
       "cnyAmount": null,
       "cnyAmountText": "未披露",
-      "companySummary": "为光能源 是一家专注于电力电子 / 固态变压器的企业。",
-      "website": "未找到已核验官网",
-      "contact": "未找到公开商务联系方式"
+      "companySummary": "西安为光能源科技有限公司，面向算力中心、电动交通、新型配网和储能等场景，围绕固态变压器（SST）等新型电力电子装备提供能源互联网解决方案。",
+      "website": "https://www.weiguangenergy.com/portal/about/index.html",
+      "contact": "服务热线：400-868-6988；地址：陕西省西安市高新区毕原二路3号先导院南区5-6号楼；公众号：WGenergy；在线留言：官网联系页面。"
     },
     {
       "companyName": "飞捷科思",
@@ -80,6 +80,22 @@
       "companySummary": "蓝凌星通 是一家专注于卫星通信的企业。",
       "website": "未找到已核验官网",
       "contact": "未找到公开商务联系方式"
+    },
+    {
+      "companyName": "RoboParty（萝博派对）",
+      "industry": "具身智能 / 人形机器人",
+      "financingDate": "2026-08-04",
+      "amountText": "近 5 亿元人民币",
+      "round": "天使++轮及 Pre-A 轮",
+      "market": "China",
+      "sourceName": "快科技（新浪财经转载）",
+      "sourceUrl": "https://finance.sina.com.cn/tech/roll/2026-08-04/doc-inimchzp5821502.shtml",
+      "verification": "媒体交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "上海萝博派对科技有限公司，专注全栈开源双足人形机器人；其公开项目覆盖机器人结构、电气、训练和部署。",
+      "website": "https://github.com/Roboparty",
+      "contact": "未见公开商务电话或邮箱；开源技术交流 QQ 群：546376843；官方 GitHub：github.com/Roboparty。"
     },
     {
       "companyName": "昉擎科技",

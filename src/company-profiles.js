@@ -4,6 +4,11 @@ const PROFILES = {
     website: "https://www.matrixorigin.cn/",
     contact: "商务联系：官网联系页",
   },
+  "为光能源": {
+    companySummary: "西安为光能源科技有限公司，面向算力中心、电动交通、新型配网和储能等场景，围绕固态变压器（SST）等新型电力电子装备提供能源互联网解决方案。",
+    website: "https://www.weiguangenergy.com/portal/about/index.html",
+    contact: "服务热线：400-868-6988；地址：陕西省西安市高新区毕原二路3号先导院南区5-6号楼；公众号：WGenergy；在线留言：官网联系页面。",
+  },
   "西湖心辰": {
     companySummary: "生成式 AI 公司，聚焦多模态大模型与 AI 原生应用研发。",
     website: "https://www.westlake.ai/",
@@ -43,6 +48,11 @@ const PROFILES = {
     companySummary: "AI 视频大模型产品，面向内容创作和商业化视频生成场景提供服务。",
     website: "https://klingai.com/",
     contact: "商务联系：官网联系页",
+  },
+  "RoboParty（萝博派对）": {
+    companySummary: "上海萝博派对科技有限公司，专注全栈开源双足人形机器人；其公开项目覆盖机器人结构、电气、训练和部署。",
+    website: "https://github.com/Roboparty",
+    contact: "未见公开商务电话或邮箱；开源技术交流 QQ 群：546376843；官方 GitHub：github.com/Roboparty。",
   },
 };
 
