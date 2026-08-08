@@ -54,6 +54,9 @@ test("createPublicDataset puts China records first and exposes readable CNY amou
       market: "Global",
       sourceName: "Source",
       sourceUrl: "https://example.com/global",
+      companySummary: "全球网络安全公司。",
+      website: "https://example.com",
+      contact: "contact@example.com",
       verification: "Verified",
       fetchedAt: "2026-08-07T11:30:00+08:00",
     },
@@ -68,6 +71,9 @@ test("createPublicDataset puts China records first and exposes readable CNY amou
       market: "China",
       sourceName: "来源",
       sourceUrl: "https://example.com/china",
+      companySummary: "聚焦人工智能产品研发。",
+      website: "https://china.example.com",
+      contact: "商务联系：官网联系页",
       verification: "已核验",
       fetchedAt: "2026-08-07T11:30:00+08:00",
     },
@@ -75,4 +81,7 @@ test("createPublicDataset puts China records first and exposes readable CNY amou
 
   assert.deepEqual(dataset.records.map((record) => record.companyName), ["中国公司", "Global Co"]);
   assert.equal(dataset.records[0].cnyAmountText, "33,000 万元");
+  assert.equal(dataset.records[0].companySummary, "聚焦人工智能产品研发。");
+  assert.equal(dataset.records[0].website, "https://china.example.com");
+  assert.equal(dataset.records[0].contact, "商务联系：官网联系页");
 });

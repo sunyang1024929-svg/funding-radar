@@ -77,19 +77,27 @@ function render() {
     const row = document.createElement("article");
     row.className = "record";
     row.style.setProperty("--delay", `${index * 38}ms`);
+    const website = record.website.startsWith("http")
+      ? `<a class="website-link" href="${record.website}" target="_blank" rel="noreferrer">企业官网 ↗</a>`
+      : `<span>${record.website}</span>`;
     row.innerHTML = `
       <div class="company">
         <h2>${record.companyName}</h2>
         <p>${record.industry}</p>
+        <p class="company-summary">${record.companySummary}</p>
       </div>
       <time datetime="${record.financingDate}">${formatDate(record.financingDate)}</time>
       <div class="amount">
         <strong>${record.amountText}</strong>
         <span>${record.round} · ${record.cnyAmountText}</span>
       </div>
-      <a href="${record.sourceUrl}" target="_blank" rel="noreferrer">
-        <span>${record.sourceName}</span><b>↗</b>
-      </a>
+      <div class="links">
+        <a href="${record.sourceUrl}" target="_blank" rel="noreferrer">
+          <span>${record.sourceName}</span><b>↗</b>
+        </a>
+        ${website}
+        <span class="contact">${record.contact}</span>
+      </div>
     `;
     elements.records.append(row);
   }
@@ -133,7 +141,7 @@ function setupEvents() {
 
 async function initialize() {
   try {
-    const response = await fetch("./data/funding.json");
+    const response = await fetch("./data/funding.json", { cache: "no-store" });
     if (!response.ok) throw new Error("Funding data could not be loaded");
     const dataset = await response.json();
     state.records = dataset.records;

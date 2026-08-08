@@ -3,13 +3,16 @@ import path from "node:path";
 import { Workbook, SpreadsheetFile } from "@oai/artifact-tool";
 
 import { normalizeRecords, splitByMarket } from "../src/funding.js";
+import { enrichCompanyRecord } from "../src/company-profiles.js";
 
 const root = path.resolve(import.meta.dirname, "..");
 const sourcePath = path.join(root, "data", "funding-records.json");
 const outputPath = path.join(root, "近期融资公司追踪.xlsx");
 
 const rawRecords = JSON.parse(await fs.readFile(sourcePath, "utf8"));
-const { china, global } = splitByMarket(normalizeRecords(rawRecords));
+const { china, global } = splitByMarket(
+  normalizeRecords(rawRecords).map(enrichCompanyRecord),
+);
 const workbook = new Workbook({ sheets: [] });
 
 function toRows(records) {
@@ -25,6 +28,9 @@ function toRows(records) {
     record.sourceUrl,
     new Date(record.fetchedAt.replace("+08:00", "Z")),
     record.verification,
+    record.companySummary,
+    record.website,
+    record.contact,
   ]);
 }
 
@@ -42,35 +48,38 @@ function addFundingSheet(name, records, marketLabel) {
     "来源链接",
     "抓取时间",
     "核验状态",
+    "企业介绍",
+    "企业网址",
+    "公开联系方式",
   ];
 
-  sheet.getRange("A1:K1").merge();
+  sheet.getRange("A1:N1").merge();
   sheet.getRange("A1").values = [[`${marketLabel}近期融资公司追踪`]];
-  sheet.getRange("A2:K2").merge();
+  sheet.getRange("A2:N2").merge();
   sheet.getRange("A2").values = [[
     "仅收录公开报道的股权融资、战略融资与可明确归属公司的融资事件；人民币换算按 1 美元 = 7.20 元估算。",
   ]];
-  sheet.getRange("A4:K4").values = [headers];
-  sheet.getRange(`A5:K${records.length + 4}`).values = toRows(records);
+  sheet.getRange("A4:N4").values = [headers];
+  sheet.getRange(`A5:N${records.length + 4}`).values = toRows(records);
 
-  sheet.getRange("A1:K1").format = {
+  sheet.getRange("A1:N1").format = {
     fill: "#123A5A",
     font: { bold: true, color: "#FFFFFF", size: 15 },
     horizontalAlignment: "left",
     verticalAlignment: "center",
   };
-  sheet.getRange("A2:K2").format = {
+  sheet.getRange("A2:N2").format = {
     fill: "#EAF2F8",
     font: { color: "#36566F", italic: true, size: 10 },
     wrapText: true,
   };
-  sheet.getRange("A4:K4").format = {
+  sheet.getRange("A4:N4").format = {
     fill: "#1F6F8B",
     font: { bold: true, color: "#FFFFFF" },
     horizontalAlignment: "center",
     verticalAlignment: "center",
   };
-  sheet.getRange(`A5:K${records.length + 4}`).format = {
+  sheet.getRange(`A5:N${records.length + 4}`).format = {
     verticalAlignment: "center",
   };
   sheet.getRange(`C5:C${records.length + 4}`).format.numberFormat = "yyyy-mm-dd";
@@ -86,6 +95,7 @@ function addFundingSheet(name, records, marketLabel) {
 
   const widths = {
     A: 20, B: 25, C: 15, D: 20, E: 14, F: 12, G: 24, H: 18, I: 55, J: 22, K: 12,
+    L: 42, M: 34, N: 28,
   };
   for (const [column, width] of Object.entries(widths)) {
     sheet.getRange(`${column}:${column}`).format.columnWidth = width;
@@ -94,7 +104,7 @@ function addFundingSheet(name, records, marketLabel) {
   sheet.getRange("2:2").format.rowHeight = 32;
   sheet.getRange("4:4").format.rowHeight = 22;
   sheet.freezePanes.freezeRows(4);
-  sheet.getRange(`A4:K${records.length + 4}`).format.autofitRows();
+  sheet.getRange(`A4:N${records.length + 4}`).format.autofitRows();
   return sheet;
 }
 

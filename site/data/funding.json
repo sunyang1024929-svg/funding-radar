@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T07:15:41.598Z",
+  "generatedAt": "2026-08-08T03:34:29.383Z",
   "records": [
     {
       "companyName": "矩阵起源",
@@ -12,7 +12,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E7%9F%A9%E9%98%B5%E8%B5%B7%E6%BA%90%20%E8%B6%85%E5%8D%83%E4%B8%87%E7%BE%8E%E5%85%83%20A%E8%BD%AE%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": 7200,
-      "cnyAmountText": "7,200 万元"
+      "cnyAmountText": "7,200 万元",
+      "companySummary": "企业级 AI 基础设施公司，围绕数据管理与 AI 计算场景提供技术产品。",
+      "website": "https://www.matrixorigin.cn/",
+      "contact": "商务联系：官网联系页"
     },
     {
       "companyName": "为光能源",
@@ -25,7 +28,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E4%B8%BA%E5%85%89%E8%83%BD%E6%BA%90%20B%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": null,
-      "cnyAmountText": "未披露"
+      "cnyAmountText": "未披露",
+      "companySummary": "为光能源 是一家专注于电力电子 / 固态变压器的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "飞捷科思",
@@ -38,7 +44,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E9%A3%9E%E6%8D%B7%E7%A7%91%E6%80%9D%20A1%20%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": null,
-      "cnyAmountText": "未披露"
+      "cnyAmountText": "未披露",
+      "companySummary": "飞捷科思 是一家专注于半导体的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "蓝凌星通",
@@ -51,7 +60,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E8%93%9D%E5%87%8C%E6%98%9F%E9%80%9A%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": null,
-      "cnyAmountText": "未披露"
+      "cnyAmountText": "未披露",
+      "companySummary": "蓝凌星通 是一家专注于卫星通信的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "昉擎科技",
@@ -64,7 +76,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E6%98%89%E6%93%8E%E7%A7%91%E6%8A%80%20A1%20%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": null,
-      "cnyAmountText": "未披露"
+      "cnyAmountText": "未披露",
+      "companySummary": "昉擎科技 是一家专注于AI 算力芯片的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "协鑫光电",
@@ -77,7 +92,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E5%8D%8F%E9%91%AB%E5%85%89%E7%94%B5%20D1%20%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": null,
-      "cnyAmountText": "未披露"
+      "cnyAmountText": "未披露",
+      "companySummary": "协鑫光电 是一家专注于钙钛矿光伏的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "主动科技",
@@ -90,7 +108,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E4%B8%BB%E5%8A%A8%E7%A7%91%E6%8A%80%203.3%E4%BA%BF%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": 33000,
-      "cnyAmountText": "33,000 万元"
+      "cnyAmountText": "33,000 万元",
+      "companySummary": "主动科技 是一家专注于脑机接口的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "西湖心辰",
@@ -103,7 +124,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E8%A5%BF%E6%B9%96%E5%BF%83%E8%BE%B0%20B%2B%20%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": null,
-      "cnyAmountText": "未披露"
+      "cnyAmountText": "未披露",
+      "companySummary": "生成式 AI 公司，聚焦多模态大模型与 AI 原生应用研发。",
+      "website": "https://www.westlake.ai/",
+      "contact": "商务联系：官网联系页"
     },
     {
       "companyName": "璨辰科技",
@@ -116,7 +140,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E7%92%A8%E8%BE%B0%E7%A7%91%E6%8A%80%20%E8%99%9A%E6%8B%9F%E5%99%A8%E5%AE%98%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": null,
-      "cnyAmountText": "未披露"
+      "cnyAmountText": "未披露",
+      "companySummary": "璨辰科技 是一家专注于医疗 AI / 虚拟器官仿真的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "鸿鹄航空",
@@ -129,7 +156,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E9%B8%BF%E9%B9%84%E8%88%AA%E7%A9%BA%207000%E4%B8%87%20A%E8%BD%AE&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": 7000,
-      "cnyAmountText": "7,000 万元"
+      "cnyAmountText": "7,000 万元",
+      "companySummary": "鸿鹄航空 是一家专注于航空航天的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "元育生物",
@@ -142,7 +172,90 @@
       "sourceUrl": "https://news.google.com/search?q=%E5%85%83%E8%82%B2%E7%94%9F%E7%89%A9%20A%2B%20%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": 10000,
-      "cnyAmountText": "10,000 万元"
+      "cnyAmountText": "10,000 万元",
+      "companySummary": "元育生物 是一家专注于生物医药的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
+    },
+    {
+      "companyName": "幺正量子",
+      "industry": "量子计算",
+      "financingDate": "2026-08-03",
+      "amountText": "数亿元人民币",
+      "round": "A 轮",
+      "market": "China",
+      "sourceName": "大河财立方",
+      "sourceUrl": "https://news.google.com/search?q=%E5%B9%BA%E6%AD%A3%E9%87%8F%E5%AD%90%20A%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "verification": "待官网交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "量子计算技术公司，面向量子软硬件与产业化应用开展研发。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
+    },
+    {
+      "companyName": "恺望数据",
+      "industry": "AI 数据服务",
+      "financingDate": "2026-08-03",
+      "amountText": "逾亿元人民币",
+      "round": "未披露",
+      "market": "China",
+      "sourceName": "封面新闻",
+      "sourceUrl": "https://news.google.com/search?q=%E6%81%BA%E6%9C%9B%E6%95%B0%E6%8D%AE%20%E9%80%BE%E4%BA%BF%E5%85%83%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "verification": "待官网交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "AI 数据服务公司，为具身智能等场景提供数据采集、处理与训练支持。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
+    },
+    {
+      "companyName": "求是光谱",
+      "industry": "光谱检测",
+      "financingDate": "2026-08-03",
+      "amountText": "未披露",
+      "round": "B++ 轮",
+      "market": "China",
+      "sourceName": "新浪财经",
+      "sourceUrl": "https://news.google.com/search?q=%E6%B1%82%E6%98%AF%E5%85%89%E8%B0%B1%20B%2B%2B%20%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "verification": "待官网交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "光谱检测技术公司，面向工业与科研场景提供光谱相关产品和解决方案。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
+    },
+    {
+      "companyName": "熵简科技",
+      "industry": "企业软件 / 数据智能",
+      "financingDate": "2026-08-03",
+      "amountText": "未披露",
+      "round": "C 轮",
+      "market": "China",
+      "sourceName": "新浪财经",
+      "sourceUrl": "https://news.google.com/search?q=%E7%86%B5%E7%AE%80%E7%A7%91%E6%8A%80%20C%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "verification": "待官网交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "企业级技术服务公司，聚焦数据智能与软件产品研发。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
+    },
+    {
+      "companyName": "灏存科技",
+      "industry": "硬科技",
+      "financingDate": "2026-08-01",
+      "amountText": "未披露",
+      "round": "A+ 轮",
+      "market": "China",
+      "sourceName": "新浪财经",
+      "sourceUrl": "https://news.google.com/search?q=%E7%81%8F%E5%AD%98%E7%A7%91%E6%8A%80%20A%2B%20%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "verification": "待官网交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "硬科技企业，公开报道披露其近期完成 A+ 轮融资。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "月之暗面（Kimi）",
@@ -155,7 +268,10 @@
       "sourceUrl": "https://news.google.com/search?q=%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2%20F%E8%BD%AE%2035%E4%BA%BF%E7%BE%8E%E5%85%83&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
       "verification": "已核验",
       "cnyAmount": 2520000,
-      "cnyAmountText": "2,520,000 万元"
+      "cnyAmountText": "2,520,000 万元",
+      "companySummary": "大模型创业公司，推出 Kimi 等面向个人与企业的 AI 产品。",
+      "website": "https://www.moonshot.cn/",
+      "contact": "商务联系：官网联系页"
     },
     {
       "companyName": "Lumilens",
@@ -168,7 +284,10 @@
       "sourceUrl": "https://news.google.com/search?q=Lumilens%20%24900M%20funding&hl=en-US&gl=US&ceid=US%3Aen",
       "verification": "已核验",
       "cnyAmount": 648000,
-      "cnyAmountText": "648,000 万元"
+      "cnyAmountText": "648,000 万元",
+      "companySummary": "Lumilens 是一家专注于光网络的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "Valar Atomics",
@@ -181,7 +300,10 @@
       "sourceUrl": "https://news.google.com/search?q=Valar%20Atomics%20%241B%20funding&hl=en-US&gl=US&ceid=US%3Aen",
       "verification": "已核验",
       "cnyAmount": 720000,
-      "cnyAmountText": "720,000 万元"
+      "cnyAmountText": "720,000 万元",
+      "companySummary": "Valar Atomics 是一家专注于核能的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "OLIX",
@@ -194,7 +316,10 @@
       "sourceUrl": "https://news.google.com/search?q=OLIX%20%24312m%20Series%20B&hl=en-US&gl=US&ceid=US%3Aen",
       "verification": "已核验",
       "cnyAmount": 224640,
-      "cnyAmountText": "224,640 万元"
+      "cnyAmountText": "224,640 万元",
+      "companySummary": "OLIX 是一家专注于AI 芯片的企业。",
+      "website": "未找到已核验官网",
+      "contact": "未找到公开商务联系方式"
     },
     {
       "companyName": "Horizon3.ai",
@@ -207,7 +332,10 @@
       "sourceUrl": "https://news.google.com/search?q=Horizon3.ai%20%24250%20million%20funding&hl=en-US&gl=US&ceid=US%3Aen",
       "verification": "已核验",
       "cnyAmount": 180000,
-      "cnyAmountText": "180,000 万元"
+      "cnyAmountText": "180,000 万元",
+      "companySummary": "网络安全公司，提供以攻击路径验证为核心的安全测试与风险评估产品。",
+      "website": "https://www.horizon3.ai/",
+      "contact": "商务联系：官网联系页"
     },
     {
       "companyName": "Zenity",
@@ -220,7 +348,10 @@
       "sourceUrl": "https://news.google.com/search?q=Zenity%20%24125%20million%20Series%20C&hl=en-US&gl=US&ceid=US%3Aen",
       "verification": "已核验",
       "cnyAmount": 90000,
-      "cnyAmountText": "90,000 万元"
+      "cnyAmountText": "90,000 万元",
+      "companySummary": "AI Agent 安全公司，帮助企业识别和管控生成式 AI 与智能体的安全风险。",
+      "website": "https://www.zenity.io/",
+      "contact": "商务联系：官网联系页"
     }
   ]
 }

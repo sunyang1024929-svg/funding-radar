@@ -1,4 +1,5 @@
 import { normalizeRecords, splitByMarket } from "./funding.js";
+import { enrichCompanyRecord } from "./company-profiles.js";
 
 function formatCnyAmount(amount) {
   if (amount === null || amount === undefined) {
@@ -11,7 +12,7 @@ function formatCnyAmount(amount) {
 }
 
 export function createPublicDataset(records, generatedAt = new Date().toISOString()) {
-  const normalized = normalizeRecords(records);
+  const normalized = normalizeRecords(records).map(enrichCompanyRecord);
   const { china, global } = splitByMarket(normalized);
 
   return {
@@ -28,6 +29,9 @@ export function createPublicDataset(records, generatedAt = new Date().toISOStrin
       verification: record.verification,
       cnyAmount: record.cnyAmount,
       cnyAmountText: formatCnyAmount(record.cnyAmount),
+      companySummary: record.companySummary,
+      website: record.website,
+      contact: record.contact,
     })),
   };
 }

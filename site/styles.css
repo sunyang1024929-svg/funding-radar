@@ -87,16 +87,20 @@ h1 em { color: var(--accent); font-style: normal; }
 .tracker { border-top: 1px solid var(--ink); }
 .table-head, .record { display: grid; grid-template-columns: 1.45fr .75fr 1fr .8fr; gap: 20px; align-items: center; }
 .table-head { padding: 12px 0; color: var(--ink-soft); font-size: 10px; letter-spacing: .08em; }
-.record { min-height: 108px; padding: 19px 0; border-top: 1px solid var(--line); animation: rise .5s var(--delay) both; }
+.record { min-height: 130px; padding: 19px 0; border-top: 1px solid var(--line); animation: rise .5s var(--delay) both; }
 .company h2 { margin: 0 0 7px; font-family: "Noto Serif SC", serif; font-size: 24px; letter-spacing: -.05em; }
 .company p, .amount span { margin: 0; color: var(--ink-soft); font-size: 11px; }
+.company .company-summary { max-width: 36rem; margin-top: 9px; line-height: 1.55; }
 time { color: var(--ink-soft); font-size: 12px; }
 .amount { display: grid; gap: 7px; }
 .amount strong { font-size: 14px; font-weight: 500; }
+.links { display: grid; gap: 8px; }
 .record a { display: flex; justify-content: space-between; align-items: center; gap: 10px; color: var(--ink); font-size: 12px; text-decoration: none; }
 .record a b { color: var(--accent); font-size: 18px; transition: transform .2s ease; }
 .record:hover a b { transform: translate(3px, -3px); }
 .record:hover .company h2 { color: var(--accent); }
+.website-link { color: var(--accent) !important; }
+.contact { color: var(--ink-soft); font-size: 10px; line-height: 1.45; }
 
 .empty-state { padding: 80px 0; border-top: 1px solid var(--line); text-align: center; }
 .empty-state strong { font-family: "Noto Serif SC", serif; font-size: 24px; }
