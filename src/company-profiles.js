@@ -39,6 +39,11 @@ const PROFILES = {
   "灏存科技": {
     companySummary: "硬科技企业，公开报道披露其近期完成 A+ 轮融资。",
   },
+  "可灵 AI": {
+    companySummary: "AI 视频大模型产品，面向内容创作和商业化视频生成场景提供服务。",
+    website: "https://klingai.com/",
+    contact: "商务联系：官网联系页",
+  },
 };
 
 export function enrichCompanyRecord(record) {

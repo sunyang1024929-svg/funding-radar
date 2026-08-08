@@ -252,6 +252,20 @@
     "fetchedAt": "2026-08-08T11:30:00+08:00"
   },
   {
+    "companyName": "可灵 AI",
+    "industry": "AI 视频大模型",
+    "financingDate": "2026-08-07",
+    "amountText": "近 30 亿美元",
+    "amount": null,
+    "currency": "USD",
+    "round": "未披露",
+    "market": "China",
+    "sourceName": "新华网 / 经济参考报",
+    "sourceUrl": "https://www.news.cn/tech/20260807/1605ef446e5045b7ba0ee55245ce731c/c.html",
+    "verification": "已核验",
+    "fetchedAt": "2026-08-08T11:39:00+08:00"
+  },
+  {
     "companyName": "恺望数据",
     "industry": "AI 数据服务",
     "financingDate": "2026-08-03",

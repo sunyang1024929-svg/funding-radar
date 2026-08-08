@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-08T03:34:29.383Z",
+  "generatedAt": "2026-08-08T03:41:02.119Z",
   "records": [
+    {
+      "companyName": "可灵 AI",
+      "industry": "AI 视频大模型",
+      "financingDate": "2026-08-07",
+      "amountText": "近 30 亿美元",
+      "round": "未披露",
+      "market": "China",
+      "sourceName": "新华网 / 经济参考报",
+      "sourceUrl": "https://www.news.cn/tech/20260807/1605ef446e5045b7ba0ee55245ce731c/c.html",
+      "verification": "已核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "AI 视频大模型产品，面向内容创作和商业化视频生成场景提供服务。",
+      "website": "https://klingai.com/",
+      "contact": "商务联系：官网联系页"
+    },
     {
       "companyName": "矩阵起源",
       "industry": "企业级 AI 基础设施",
