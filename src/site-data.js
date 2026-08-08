@@ -35,3 +35,7 @@ export function createPublicDataset(records, generatedAt = new Date().toISOStrin
     })),
   };
 }
+
+export function serializeBrowserDataset(dataset) {
+  return `window.FUNDING_DATA = ${JSON.stringify(dataset)};\n`;
+}

@@ -141,9 +141,7 @@ function setupEvents() {
 
 async function initialize() {
   try {
-    const response = await fetch("./data/funding.json", { cache: "no-store" });
-    if (!response.ok) throw new Error("Funding data could not be loaded");
-    const dataset = await response.json();
+    const dataset = window.FUNDING_DATA || await loadFundingDataset();
     state.records = dataset.records;
     elements.updatedAt.textContent = `更新于 ${formatUpdatedAt(dataset.generatedAt)}（北京时间）`;
     populateIndustries(state.records);
@@ -153,6 +151,12 @@ async function initialize() {
     elements.error.hidden = false;
     elements.summary.textContent = "数据加载失败";
   }
+}
+
+async function loadFundingDataset() {
+  const response = await fetch("./data/funding.json", { cache: "no-store" });
+  if (!response.ok) throw new Error("Funding data could not be loaded");
+  return response.json();
 }
 
 initialize();

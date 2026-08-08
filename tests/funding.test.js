@@ -6,7 +6,7 @@ import {
   convertToCny,
   splitByMarket,
 } from "../src/funding.js";
-import { createPublicDataset } from "../src/site-data.js";
+import { createPublicDataset, serializeBrowserDataset } from "../src/site-data.js";
 
 test("deduplicateRecords keeps the most recently fetched version of one funding event", () => {
   const records = [
@@ -84,4 +84,14 @@ test("createPublicDataset puts China records first and exposes readable CNY amou
   assert.equal(dataset.records[0].companySummary, "聚焦人工智能产品研发。");
   assert.equal(dataset.records[0].website, "https://china.example.com");
   assert.equal(dataset.records[0].contact, "商务联系：官网联系页");
+});
+
+test("serializeBrowserDataset emits a local-file-friendly browser data script", () => {
+  const script = serializeBrowserDataset({
+    generatedAt: "2026-08-08T00:00:00.000Z",
+    records: [{ companyName: "示例公司" }],
+  });
+
+  assert.match(script, /^window\.FUNDING_DATA = /);
+  assert.match(script, /示例公司/);
 });
