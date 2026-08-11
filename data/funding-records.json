@@ -432,5 +432,47 @@
     "sourceUrl": "https://news.pedaily.cn/202608/567447.shtml",
     "verification": "已核验",
     "fetchedAt": "2026-08-11T10:35:00+08:00"
+  },
+  {
+    "companyName": "飞声",
+    "industry": "AI 助听器 / 医疗器械",
+    "financingDate": "2026-08-10",
+    "amountText": "数千万元人民币",
+    "amount": null,
+    "currency": "CNY",
+    "round": "天使轮",
+    "market": "China",
+    "sourceName": "36氪",
+    "sourceUrl": "https://news.google.com/search?q=%E9%A3%9E%E5%A3%B0%20AI%20%E5%8A%A9%E5%90%AC%E5%99%A8%20%E5%A4%A9%E4%BD%BF%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+    "verification": "媒体与官网交叉核验",
+    "fetchedAt": "2026-08-11T10:35:00+08:00"
+  },
+  {
+    "companyName": "霍德生物",
+    "industry": "细胞治疗 / 生物技术",
+    "financingDate": "2026-08-10",
+    "amountText": "近 2 亿元人民币",
+    "amount": null,
+    "currency": "CNY",
+    "round": "C 轮首关",
+    "market": "China",
+    "sourceName": "投资界",
+    "sourceUrl": "https://news.google.com/search?q=%E9%9C%8D%E5%BE%B7%E7%94%9F%E7%89%A9%20%E8%BF%91%202%20%E4%BA%BF%E5%85%83%20C%E8%BD%AE%20%E9%A6%96%E5%85%B3&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+    "verification": "媒体与公开工商信息交叉核验",
+    "fetchedAt": "2026-08-11T10:35:00+08:00"
+  },
+  {
+    "companyName": "ElevTalk",
+    "industry": "AI 语音交互 / 职场效率工具",
+    "financingDate": "2026-08-10",
+    "amountText": "未披露",
+    "amount": null,
+    "currency": "USD",
+    "round": "Pre-Seed 轮",
+    "market": "Global",
+    "sourceName": "36氪",
+    "sourceUrl": "https://news.google.com/search?q=ElevTalk%20Pre-Seed%20%E8%9E%8D%E8%B5%84&hl=en-US&gl=US&ceid=US%3Aen",
+    "verification": "媒体与官网交叉核验",
+    "fetchedAt": "2026-08-11T10:35:00+08:00"
   }
 ]

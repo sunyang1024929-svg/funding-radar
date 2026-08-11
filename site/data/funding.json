@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T02:36:34.755Z",
+  "generatedAt": "2026-08-11T02:44:09.235Z",
   "records": [
     {
       "companyName": "亿兰科",
@@ -13,9 +13,9 @@
       "verification": "已核验",
       "cnyAmount": null,
       "cnyAmountText": "未披露",
-      "companySummary": "亿兰科 是一家专注于高端分析仪器 / 质谱仪的企业。",
-      "website": "未找到已核验官网",
-      "contact": "未找到公开商务联系方式"
+      "companySummary": "亿兰科专注工商业模块化光储系统和电力电子设备，围绕 PCS、混合逆变器、光储一体机与微电网管理系统开展研发和交付。公司产品服务工商业储能、分布式光伏和海外终端市场。",
+      "website": "https://www.elecod.cn/",
+      "contact": "电话：0755-23050802；商务邮箱：marketing@elecod.com；人力邮箱：hr@elecod.com；官网联系页：https://www.elecod.cn/aboutus.html。"
     },
     {
       "companyName": "诺因智能",
@@ -29,9 +29,9 @@
       "verification": "已核验",
       "cnyAmount": 50000,
       "cnyAmountText": "50,000 万元",
-      "companySummary": "诺因智能 是一家专注于具身智能 / 消费级机器人的企业。",
-      "website": "未找到已核验官网",
-      "contact": "未找到公开商务联系方式"
+      "companySummary": "诺因智能聚焦家庭场景具身智能，围绕折叠双臂机器人及相关感知、执行和交互系统推进产品研发。公司目标是让机器人进入真实家庭环境，承担陪伴互动、整理和基础协作等任务。",
+      "website": "https://knowinai.com/",
+      "contact": "招聘邮箱：HR@knowin.ai；联系电话：17610340223；媒介合作：media@knowin.ai；官方联系页：https://knowinai.com/。"
     },
     {
       "companyName": "星环聚能",
@@ -45,9 +45,9 @@
       "verification": "已核验",
       "cnyAmount": 88000,
       "cnyAmountText": "88,000 万元",
-      "companySummary": "星环聚能 是一家专注于可控聚变 / 清洁能源的企业。",
-      "website": "未找到已核验官网",
-      "contact": "未找到公开商务联系方式"
+      "companySummary": "星环聚能专注可控核聚变相关技术和工程化系统，推动聚变能装备研发及商业化路径。公司面向清洁能源、长期稳定供能和能源转型场景，持续扩展实验和产业化能力。",
+      "website": "https://startorus.cn/",
+      "contact": "电话：029-86041002；邮箱：business@startorus.cn；公司地址：上海市嘉定区澄浏公路52号39幢2楼JT109869室；官网联系页：https://startorus.cn/。"
     },
     {
       "companyName": "奇算光启",
@@ -61,7 +61,7 @@
       "verification": "已核验",
       "cnyAmount": null,
       "cnyAmountText": "未披露",
-      "companySummary": "奇算光启 是一家专注于AI 光计算芯片的企业。",
+      "companySummary": "奇算光启专注 AI 光计算芯片和光计算系统研发，试图用全光计算与集成光子技术突破传统电子芯片能效瓶颈。公司面向大模型和高性能计算底座，强调算力密度、功耗和系统扩展能力。",
       "website": "未找到已核验官网",
       "contact": "未找到公开商务联系方式"
     },
@@ -77,7 +77,7 @@
       "verification": "已核验",
       "cnyAmount": null,
       "cnyAmountText": "未披露",
-      "companySummary": "深度细胞 是一家专注于AI 医疗 / 单细胞分析的企业。",
+      "companySummary": "深度细胞聚焦 AI 制药与虚拟细胞建模，围绕单细胞分析、疾病机理和药物研发加速构建算法平台。公司目标是把细胞级计算能力用于新药发现和生物医学研究。",
       "website": "未找到已核验官网",
       "contact": "未找到公开商务联系方式"
     },
@@ -93,7 +93,7 @@
       "verification": "已核验",
       "cnyAmount": null,
       "cnyAmountText": "未披露",
-      "companySummary": "橡木果机器人 是一家专注于具身智能 / 人形机器人的企业。",
+      "companySummary": "橡木果机器人专注通用具身操作，围绕触觉感知、操作基座模型和机器人执行能力构建底层技术栈。公司强调自下而上的“本能驱动”路线，目标是让机器人在真实物理环境中稳定完成操作任务。",
       "website": "未找到已核验官网",
       "contact": "未找到公开商务联系方式"
     },
@@ -109,9 +109,41 @@
       "verification": "已核验",
       "cnyAmount": null,
       "cnyAmountText": "未披露",
-      "companySummary": "Noiz AI 是一家专注于AI 语音 / 视听内容生成的企业。",
-      "website": "未找到已核验官网",
-      "contact": "未找到公开商务联系方式"
+      "companySummary": "Noiz AI 提供文本转语音、声音克隆和语音设计能力，面向内容创作、配音、本地化和开发者 API 场景。其产品强调情感控制、低延迟生成和多语言语音输出，服务全球化音频工作流。",
+      "website": "https://noiz.ai/",
+      "contact": "邮箱：contact@noiz.ai；官网联系页：https://noiz.ai/。"
+    },
+    {
+      "companyName": "飞声",
+      "industry": "AI 助听器 / 医疗器械",
+      "financingDate": "2026-08-10",
+      "amountText": "数千万元人民币",
+      "round": "天使轮",
+      "market": "China",
+      "sourceName": "36氪",
+      "sourceUrl": "https://news.google.com/search?q=%E9%A3%9E%E5%A3%B0%20AI%20%E5%8A%A9%E5%90%AC%E5%99%A8%20%E5%A4%A9%E4%BD%BF%E8%BD%AE%20%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "verification": "媒体与官网交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "飞声专注 AI 助听器与听力辅助产品，结合声学处理、语音增强和智能交互能力改善听障场景的佩戴体验。公司面向消费级与医疗级场景推进产品化，强调清晰拾音、降噪和更自然的听觉补偿。",
+      "website": "https://www.flysounds.cn/zh/",
+      "contact": "电话：15828225541；商务邮箱：jory@flysounds.com；地址：深圳市龙华区龙华街道清湖社区大和路356号金鼎盛科创园A栋18楼。"
+    },
+    {
+      "companyName": "霍德生物",
+      "industry": "细胞治疗 / 生物技术",
+      "financingDate": "2026-08-10",
+      "amountText": "近 2 亿元人民币",
+      "round": "C 轮首关",
+      "market": "China",
+      "sourceName": "投资界",
+      "sourceUrl": "https://news.google.com/search?q=%E9%9C%8D%E5%BE%B7%E7%94%9F%E7%89%A9%20%E8%BF%91%202%20%E4%BA%BF%E5%85%83%20C%E8%BD%AE%20%E9%A6%96%E5%85%B3&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "verification": "媒体与公开工商信息交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "霍德生物工程有限公司聚焦细胞治疗和再生医学相关技术与产品，围绕研发、工艺和临床转化推进管线建设。公司在公开页面中长期披露研发动态与产品进展，面向生物医药产业化需求。",
+      "website": "https://www.hopstem.com/",
+      "contact": "电话：0571-88197776；邮箱：info@hopstem.com；官网联系页：https://www.hopstem.com/。"
     },
     {
       "companyName": "可灵 AI",
@@ -416,6 +448,22 @@
       "companySummary": "月之暗面是一家大模型创业公司，推出 Kimi 等面向个人与企业的 AI 产品。其产品以长上下文理解、资料阅读、信息整理和多轮对话为主要能力，覆盖个人效率工具与企业级 AI 应用需求。",
       "website": "https://www.moonshot.cn/",
       "contact": "产品/售后：support@moonshot.cn；媒体：pr@kimi.com；投资者联系：ir@kimi.com；企业微信客服：微信公众号「月之暗面Kimi」菜单“联系我们”。"
+    },
+    {
+      "companyName": "ElevTalk",
+      "industry": "AI 语音交互 / 职场效率工具",
+      "financingDate": "2026-08-10",
+      "amountText": "未披露",
+      "round": "Pre-Seed 轮",
+      "market": "Global",
+      "sourceName": "36氪",
+      "sourceUrl": "https://news.google.com/search?q=ElevTalk%20Pre-Seed%20%E8%9E%8D%E8%B5%84&hl=en-US&gl=US&ceid=US%3Aen",
+      "verification": "媒体与官网交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "ElevTalk 是面向职场英语表达的 AI 语音与写作辅助工具，帮助用户把日常输入转成更自然、专业的英文表达。产品定位于全球化工作场景，覆盖 Slack、邮件、LinkedIn 等沟通渠道。",
+      "website": "https://www.elevtalk.com/",
+      "contact": "支持邮箱：support@elevtalk.com；官网联系页：https://www.elevtalk.com/。"
     },
     {
       "companyName": "Lumilens",

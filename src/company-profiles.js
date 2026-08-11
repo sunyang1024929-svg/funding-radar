@@ -84,6 +84,56 @@ const PROFILES = {
     website: "https://www.hexacercle.com/",
     contact: "商务合作：+86 13349933396；邮箱：mike@hexacercle.com；武汉总部：武汉东湖高新区关东街道华工园三路湖北青创园4栋801。",
   },
+  "飞声": {
+    companySummary: "飞声专注 AI 助听器与听力辅助产品，结合声学处理、语音增强和智能交互能力改善听障场景的佩戴体验。公司面向消费级与医疗级场景推进产品化，强调清晰拾音、降噪和更自然的听觉补偿。",
+    website: "https://www.flysounds.cn/zh/",
+    contact: "电话：15828225541；商务邮箱：jory@flysounds.com；地址：深圳市龙华区龙华街道清湖社区大和路356号金鼎盛科创园A栋18楼。",
+  },
+  "诺因智能": {
+    companySummary: "诺因智能聚焦家庭场景具身智能，围绕折叠双臂机器人及相关感知、执行和交互系统推进产品研发。公司目标是让机器人进入真实家庭环境，承担陪伴互动、整理和基础协作等任务。",
+    website: "https://knowinai.com/",
+    contact: "招聘邮箱：HR@knowin.ai；联系电话：17610340223；媒介合作：media@knowin.ai；官方联系页：https://knowinai.com/。",
+  },
+  ElevTalk: {
+    companySummary: "ElevTalk 是面向职场英语表达的 AI 语音与写作辅助工具，帮助用户把日常输入转成更自然、专业的英文表达。产品定位于全球化工作场景，覆盖 Slack、邮件、LinkedIn 等沟通渠道。",
+    website: "https://www.elevtalk.com/",
+    contact: "支持邮箱：support@elevtalk.com；官网联系页：https://www.elevtalk.com/。",
+  },
+  "Noiz AI": {
+    companySummary: "Noiz AI 提供文本转语音、声音克隆和语音设计能力，面向内容创作、配音、本地化和开发者 API 场景。其产品强调情感控制、低延迟生成和多语言语音输出，服务全球化音频工作流。",
+    website: "https://noiz.ai/",
+    contact: "邮箱：contact@noiz.ai；官网联系页：https://noiz.ai/。",
+  },
+  "亿兰科": {
+    companySummary: "亿兰科专注工商业模块化光储系统和电力电子设备，围绕 PCS、混合逆变器、光储一体机与微电网管理系统开展研发和交付。公司产品服务工商业储能、分布式光伏和海外终端市场。",
+    website: "https://www.elecod.cn/",
+    contact: "电话：0755-23050802；商务邮箱：marketing@elecod.com；人力邮箱：hr@elecod.com；官网联系页：https://www.elecod.cn/aboutus.html。",
+  },
+  "橡木果机器人": {
+    companySummary: "橡木果机器人专注通用具身操作，围绕触觉感知、操作基座模型和机器人执行能力构建底层技术栈。公司强调自下而上的“本能驱动”路线，目标是让机器人在真实物理环境中稳定完成操作任务。",
+    website: "未找到已核验官网",
+    contact: "未找到公开商务联系方式",
+  },
+  "霍德生物": {
+    companySummary: "霍德生物工程有限公司聚焦细胞治疗和再生医学相关技术与产品，围绕研发、工艺和临床转化推进管线建设。公司在公开页面中长期披露研发动态与产品进展，面向生物医药产业化需求。",
+    website: "https://www.hopstem.com/",
+    contact: "电话：0571-88197776；邮箱：info@hopstem.com；官网联系页：https://www.hopstem.com/。",
+  },
+  "星环聚能": {
+    companySummary: "星环聚能专注可控核聚变相关技术和工程化系统，推动聚变能装备研发及商业化路径。公司面向清洁能源、长期稳定供能和能源转型场景，持续扩展实验和产业化能力。",
+    website: "https://startorus.cn/",
+    contact: "电话：029-86041002；邮箱：business@startorus.cn；公司地址：上海市嘉定区澄浏公路52号39幢2楼JT109869室；官网联系页：https://startorus.cn/。",
+  },
+  "奇算光启": {
+    companySummary: "奇算光启专注 AI 光计算芯片和光计算系统研发，试图用全光计算与集成光子技术突破传统电子芯片能效瓶颈。公司面向大模型和高性能计算底座，强调算力密度、功耗和系统扩展能力。",
+    website: "未找到已核验官网",
+    contact: "未找到公开商务联系方式",
+  },
+  "深度细胞": {
+    companySummary: "深度细胞聚焦 AI 制药与虚拟细胞建模，围绕单细胞分析、疾病机理和药物研发加速构建算法平台。公司目标是把细胞级计算能力用于新药发现和生物医学研究。",
+    website: "未找到已核验官网",
+    contact: "未找到公开商务联系方式",
+  },
   "可灵 AI": {
     companySummary: "可灵 AI 是面向视频生成与创作的 AI 大模型产品，支持文本、图片等输入驱动的视频内容生成和编辑。产品服务广告创意、影视内容、社交媒体和商业化营销等场景，重点提升视频生成的一致性、可控性和创作效率。",
     website: "https://klingai.com/",
