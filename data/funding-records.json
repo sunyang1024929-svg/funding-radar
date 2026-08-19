@@ -474,5 +474,61 @@
     "sourceUrl": "https://news.google.com/search?q=ElevTalk%20Pre-Seed%20%E8%9E%8D%E8%B5%84&hl=en-US&gl=US&ceid=US%3Aen",
     "verification": "媒体与官网交叉核验",
     "fetchedAt": "2026-08-11T10:35:00+08:00"
+  },
+  {
+    "companyName": "嘉腾机器人",
+    "industry": "工业具身智能 / AGV / AMR",
+    "financingDate": "2026-08-18",
+    "amountText": "数千万元人民币",
+    "amount": null,
+    "currency": "CNY",
+    "round": "战略融资",
+    "market": "China",
+    "sourceName": "21世纪经济报道",
+    "sourceUrl": "https://m.21jingji.com/article/20260818/herald/09ad8c401fbb711d0cd6717d4988613c.html",
+    "verification": "媒体交叉核验",
+    "fetchedAt": "2026-08-19T19:43:13+08:00"
+  },
+  {
+    "companyName": "灵锶智能",
+    "industry": "四足机器人 / 人形机器人",
+    "financingDate": "2026-08-18",
+    "amountText": "7000万元人民币",
+    "amount": 70,
+    "currency": "CNY",
+    "round": "战略融资",
+    "market": "China",
+    "sourceName": "新浪科技",
+    "sourceUrl": "https://finance.sina.com.cn/tech/roll/2026-08-18/doc-inintpin8618761.shtml",
+    "verification": "媒体交叉核验",
+    "fetchedAt": "2026-08-19T19:43:13+08:00"
+  },
+  {
+    "companyName": "安澜德健",
+    "industry": "医疗器械 / 心室辅助装置",
+    "financingDate": "2026-08-18",
+    "amountText": "近亿元人民币",
+    "amount": null,
+    "currency": "CNY",
+    "round": "A 轮",
+    "market": "China",
+    "sourceName": "启明创投",
+    "sourceUrl": "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E6%98%9F-%E5%AE%89%E6%BE%9C%E5%BE%B7%E5%81%A5%E5%AE%8C%E6%88%90%E8%BF%91%E4%BA%BF%E5%85%83a%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%8C%E5%90%AF%E6%98%8E%E5%88%9B%E6%8A%95%E7%8B%AC%E5%AE%B6%E6%8A%95%E8%B5%84",
+    "verification": "已核验",
+    "fetchedAt": "2026-08-19T19:43:13+08:00"
+  },
+  {
+    "companyName": "Groq",
+    "industry": "AI 推理芯片 / 云服务",
+    "financingDate": "2026-08-18",
+    "amountText": "3.5亿美元",
+    "amount": 350,
+    "currency": "USD",
+    "round": "新一轮融资",
+    "market": "Global",
+    "sourceName": "新浪财经（C114通信网）",
+    "sourceUrl": "https://finance.sina.com.cn/tech/roll/2026-08-18/doc-ininttru0079490.shtml",
+    "verification": "媒体交叉核验",
+    "fetchedAt": "2026-08-19T19:43:13+08:00"
   }
 ]

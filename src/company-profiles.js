@@ -163,6 +163,26 @@ const PROFILES = {
   "璨辰科技": {
     companySummary: "璨辰科技聚焦系统级虚拟器官时空动态演化模型研发，构建从分子、细胞、组织到器官的全尺度 AI 数字孪生平台。其方案服务于新药临床前评价、发育毒性评估与疾病机制研究，并通过“仿真—湿实验—临床前验证”的数据闭环提升模型的产业转化价值。",
   },
+  "嘉腾机器人": {
+    companySummary: "嘉腾机器人专注工业自动化解决方案与机器人研发制造，重点布局 AGV、AMR 及具身智能移动底盘等产品。公司面向制造、仓储、物流与工业搬运场景，强调规模化交付和全球化应用能力。",
+    website: "https://www.jtrobots.com/",
+    contact: "总机电话：400-830-1028；商务邮箱：marketing@jtrobots.com；官网联系页：https://www.jtrobots.com/address",
+  },
+  "灵锶智能": {
+    companySummary: "灵锶智能聚焦四足机器人与人形 AI 机器人研发，产品面向电力巡检、应急救援、工厂巡检等复杂工业场景。公司强调重载、长续航和复杂地形适应能力，并在广东机器人产业链中持续推进产品化。",
+    website: "https://www.gdlinxai.com/",
+    contact: "电话：17710125211；邮箱：info@linxai-tech.com；官网联系页：https://www.gdlinxai.com/h-col-109.html",
+  },
+  "安澜德健": {
+    companySummary: "安澜德健（Enginprime Medical）专注经皮心室辅助装置（pVAD）研发，核心产品为 OpusOne™。公司围绕更小尺寸、更高流量的心室辅助系统推进中国注册临床试验与海外早期临床申报。",
+    website: "未找到已核验官网",
+    contact: "媒体邮箱：media@enginprime.com；投资者联系：info@voyagerscap.com",
+  },
+  "Groq": {
+    companySummary: "Groq 是面向快速推理的 AI 基础设施公司，提供推理云和相关算力服务。公司将自己定位为 neocloud，重点提升大规模 AI 推理的速度、成本和部署弹性。",
+    website: "https://groq.com/",
+    contact: "官网联系页：https://groq.com/contact",
+  },
 };
 
 export function enrichCompanyRecord(record) {

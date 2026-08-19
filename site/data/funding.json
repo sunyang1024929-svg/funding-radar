@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-08-11T02:44:09.235Z",
+  "generatedAt": "2026-08-19T11:46:17.548Z",
   "records": [
+    {
+      "companyName": "嘉腾机器人",
+      "industry": "工业具身智能 / AGV / AMR",
+      "financingDate": "2026-08-18",
+      "amountText": "数千万元人民币",
+      "round": "战略融资",
+      "market": "China",
+      "sourceName": "21世纪经济报道",
+      "sourceUrl": "https://m.21jingji.com/article/20260818/herald/09ad8c401fbb711d0cd6717d4988613c.html",
+      "verification": "媒体交叉核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "嘉腾机器人专注工业自动化解决方案与机器人研发制造，重点布局 AGV、AMR 及具身智能移动底盘等产品。公司面向制造、仓储、物流与工业搬运场景，强调规模化交付和全球化应用能力。",
+      "website": "https://www.jtrobots.com/",
+      "contact": "总机电话：400-830-1028；商务邮箱：marketing@jtrobots.com；官网联系页：https://www.jtrobots.com/address"
+    },
+    {
+      "companyName": "灵锶智能",
+      "industry": "四足机器人 / 人形机器人",
+      "financingDate": "2026-08-18",
+      "amountText": "7000万元人民币",
+      "round": "战略融资",
+      "market": "China",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://finance.sina.com.cn/tech/roll/2026-08-18/doc-inintpin8618761.shtml",
+      "verification": "媒体交叉核验",
+      "cnyAmount": 7000,
+      "cnyAmountText": "7,000 万元",
+      "companySummary": "灵锶智能聚焦四足机器人与人形 AI 机器人研发，产品面向电力巡检、应急救援、工厂巡检等复杂工业场景。公司强调重载、长续航和复杂地形适应能力，并在广东机器人产业链中持续推进产品化。",
+      "website": "https://www.gdlinxai.com/",
+      "contact": "电话：17710125211；邮箱：info@linxai-tech.com；官网联系页：https://www.gdlinxai.com/h-col-109.html"
+    },
+    {
+      "companyName": "安澜德健",
+      "industry": "医疗器械 / 心室辅助装置",
+      "financingDate": "2026-08-18",
+      "amountText": "近亿元人民币",
+      "round": "A 轮",
+      "market": "China",
+      "sourceName": "启明创投",
+      "sourceUrl": "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E6%98%9F-%E5%AE%89%E6%BE%9C%E5%BE%B7%E5%81%A5%E5%AE%8C%E6%88%90%E8%BF%91%E4%BA%BF%E5%85%83a%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%8C%E5%90%AF%E6%98%8E%E5%88%9B%E6%8A%95%E7%8B%AC%E5%AE%B6%E6%8A%95%E8%B5%84",
+      "verification": "已核验",
+      "cnyAmount": null,
+      "cnyAmountText": "未披露",
+      "companySummary": "安澜德健（Enginprime Medical）专注经皮心室辅助装置（pVAD）研发，核心产品为 OpusOne™。公司围绕更小尺寸、更高流量的心室辅助系统推进中国注册临床试验与海外早期临床申报。",
+      "website": "未找到已核验官网",
+      "contact": "媒体邮箱：media@enginprime.com；投资者联系：info@voyagerscap.com"
+    },
     {
       "companyName": "亿兰科",
       "industry": "高端分析仪器 / 质谱仪",
@@ -448,6 +496,22 @@
       "companySummary": "月之暗面是一家大模型创业公司，推出 Kimi 等面向个人与企业的 AI 产品。其产品以长上下文理解、资料阅读、信息整理和多轮对话为主要能力，覆盖个人效率工具与企业级 AI 应用需求。",
       "website": "https://www.moonshot.cn/",
       "contact": "产品/售后：support@moonshot.cn；媒体：pr@kimi.com；投资者联系：ir@kimi.com；企业微信客服：微信公众号「月之暗面Kimi」菜单“联系我们”。"
+    },
+    {
+      "companyName": "Groq",
+      "industry": "AI 推理芯片 / 云服务",
+      "financingDate": "2026-08-18",
+      "amountText": "3.5亿美元",
+      "round": "新一轮融资",
+      "market": "Global",
+      "sourceName": "新浪财经（C114通信网）",
+      "sourceUrl": "https://finance.sina.com.cn/tech/roll/2026-08-18/doc-ininttru0079490.shtml",
+      "verification": "媒体交叉核验",
+      "cnyAmount": 252000,
+      "cnyAmountText": "252,000 万元",
+      "companySummary": "Groq 是面向快速推理的 AI 基础设施公司，提供推理云和相关算力服务。公司将自己定位为 neocloud，重点提升大规模 AI 推理的速度、成本和部署弹性。",
+      "website": "https://groq.com/",
+      "contact": "官网联系页：https://groq.com/contact"
     },
     {
       "companyName": "ElevTalk",
