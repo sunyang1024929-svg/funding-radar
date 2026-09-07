@@ -178,6 +178,66 @@ const PROFILES = {
     website: "未找到已核验官网",
     contact: "媒体邮箱：media@enginprime.com；投资者联系：info@voyagerscap.com",
   },
+  "中科世通亨奇": {
+    companySummary: "中科世通亨奇面向智能决策基础设施、空间计算与复杂系统仿真场景，打造 AOS 时空智能基础设施及世通灵境产品体系。公司服务城市治理、应急安全、低空经济、机器人和国防军工等高复杂度决策场景，强调三维空间、实时数据和智能推演能力融合。",
+    website: "未找到已核验官网",
+    contact: "未找到公开商务联系方式",
+  },
+  "日耀光电": {
+    companySummary: "日耀光电聚焦钙钛矿光伏材料与器件研发，围绕新型太阳能电池材料、工艺和应用推进产业化。公司所处赛道面向高效率、低成本光伏技术迭代，可服务下一代光伏组件和分布式能源应用。",
+    website: "未找到已核验官网",
+    contact: "未找到公开商务联系方式",
+  },
+  "记忆张量": {
+    companySummary: "记忆张量专注 AI 记忆基础设施，推进 MemOS 等面向智能体和大模型应用的长期记忆系统。公司尝试把记忆管理、上下文组织和个性化知识沉淀做成基础层能力，服务企业级 AI Agent 与持续学习场景。",
+    website: "https://www.memtensor.cn/",
+    contact: "官网提供产品介绍与在线访问入口；未找到可交叉确认的公开商务电话或邮箱。",
+  },
+  "中科昊芯": {
+    companySummary: "中科昊芯从事高性能 DSP 芯片及嵌入式处理器研发，产品面向工业控制、电力电子、新能源、机器人和高端装备等场景。公司围绕国产实时控制芯片、开发工具链和生态适配推进产业化落地。",
+    website: "https://www.haawking.com/",
+    contact: "官网联系页：https://www.haawking.com/contact.html",
+  },
+  "追梦空天": {
+    companySummary: "追梦空天聚焦混动 eVTOL 与低空出行飞行器研发，推进 DF3000 等长航程、高载荷航空器产品。公司面向低空物流、通勤出行、应急救援和特种作业等场景探索混合动力飞行平台商业化。",
+    website: "未找到已核验官网",
+    contact: "未找到公开商务联系方式",
+  },
+  "优宝特": {
+    companySummary: "优宝特是智能机器人与工业自动化企业，产品覆盖冲压自动化、焊装自动化、智能仓储物流及移动机器人等方向。公司面向汽车、家电、工程机械和智能制造场景提供机器人本体、系统集成与产线自动化解决方案。",
+    website: "https://www.yobotics.cn/",
+    contact: "官网联系页：https://www.yobotics.cn/",
+  },
+  "Violoop（本惟无界）": {
+    companySummary: "Violoop（本惟无界）面向 AI 眼镜和下一代可穿戴计算终端研发硬件与交互系统。公司围绕多模态感知、端侧智能和轻量化消费电子产品形态，探索智能眼镜在日常助理、拍摄记录和空间交互中的应用。",
+    website: "未找到已核验官网",
+    contact: "未找到公开商务联系方式",
+  },
+  "先博生物": {
+    companySummary: "先博生物（Simnova Bio）是一家创新药和细胞治疗公司，重点推进实体瘤及免疫相关疾病方向的候选产品研发。公司围绕细胞治疗、基因工程和转化医学平台建设管线，服务临床未满足需求。",
+    website: "https://www.simnovabio.com/",
+    contact: "官网联系页：https://www.simnovabio.com/cn/contact-us",
+  },
+  "灵初智能": {
+    companySummary: "灵初智能专注具身智能与机器人基础模型，研发面向真实物理世界操作的感知、决策和控制系统。公司目标是通过大模型、仿真训练和机器人本体能力结合，提升通用机器人在工业、服务和家庭场景中的可用性。",
+    website: "未找到已核验官网",
+    contact: "未找到公开商务联系方式",
+  },
+  "蜂巢互联": {
+    companySummary: "蜂巢互联提供工业软件、数字孪生和物理 AI 仿真能力，面向制造业复杂设备和产线构建虚实融合平台。公司通过仿真引擎、工业互联网和数据模型，支持研发验证、生产优化和智能运维场景。",
+    website: "https://www.vbullet.com/",
+    contact: "官网联系页：https://www.vbullet.com/",
+  },
+  "小鹏机器人": {
+    companySummary: "小鹏机器人是小鹏体系内面向人形机器人和具身智能方向的业务，公开展示过 IRON 等机器人产品。其研发围绕机器人本体、运动控制、环境感知和智能交互展开，目标是将智能汽车相关技术能力延伸到机器人场景。",
+    website: "https://www.xpeng.com/",
+    contact: "官网联系页：https://www.xpeng.com/contact",
+  },
+  "枢途科技": {
+    companySummary: "枢途科技聚焦 AGI Infra 与 AI 数据基础设施，面向大模型训练、智能体开发和企业 AI 应用提供底层数据与工程平台。公司强调数据流、知识组织和模型应用之间的连接能力，帮助团队更高效地构建可落地的智能系统。",
+    website: "未找到已核验官网",
+    contact: "未找到公开商务联系方式",
+  },
   "Groq": {
     companySummary: "Groq 是面向快速推理的 AI 基础设施公司，提供推理云和相关算力服务。公司将自己定位为 neocloud，重点提升大规模 AI 推理的速度、成本和部署弹性。",
     website: "https://groq.com/",
