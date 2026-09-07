@@ -28,6 +28,8 @@ jobs:
         run: node --test
       - name: Build website data
         run: node scripts/build-site-data.mjs
+      - name: Include workbook download
+        run: cp "近期融资公司追踪.xlsx" "site/近期融资公司追踪.xlsx"
       - uses: actions/configure-pages@v5
         with:
           enablement: true
