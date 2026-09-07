@@ -9,6 +9,7 @@ const root = path.resolve(import.meta.dirname, "..");
 const sourcePath = path.join(root, "data", "funding-records.json");
 const outputPath = path.join(root, "近期融资公司追踪.xlsx");
 const siteWorkbookPath = path.join(root, "site", "近期融资公司追踪.xlsx");
+const siteAsciiWorkbookPath = path.join(root, "site", "funding-tracker.xlsx");
 
 const rawRecords = JSON.parse(await fs.readFile(sourcePath, "utf8"));
 const { china, global } = splitByMarket(
@@ -128,5 +129,6 @@ log.freezePanes.freezeRows(1);
 const output = await SpreadsheetFile.exportXlsx(workbook);
 await output.save(outputPath);
 await fs.copyFile(outputPath, siteWorkbookPath);
+await fs.copyFile(outputPath, siteAsciiWorkbookPath);
 await import("./build-site-data.mjs");
 console.log(outputPath);
