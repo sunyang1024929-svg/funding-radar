@@ -7,6 +7,7 @@ import {
   splitByMarket,
 } from "../src/funding.js";
 import { createPublicDataset, serializeBrowserDataset } from "../src/site-data.js";
+import { getNextVisibleCount, getVisibleRecords } from "../site/listing.js";
 
 test("deduplicateRecords keeps the most recently fetched version of one funding event", () => {
   const records = [
@@ -94,4 +95,13 @@ test("serializeBrowserDataset emits a local-file-friendly browser data script", 
 
   assert.match(script, /^window\.FUNDING_DATA = /);
   assert.match(script, /示例公司/);
+});
+
+test("listing helpers reveal records in fixed-size batches", () => {
+  const records = Array.from({ length: 25 }, (_, index) => ({ companyName: `公司${index}` }));
+
+  assert.deepEqual(getVisibleRecords(records, 12), records.slice(0, 12));
+  assert.equal(getNextVisibleCount(12, records.length, 12), 24);
+  assert.equal(getNextVisibleCount(24, records.length, 12), 25);
+  assert.equal(getNextVisibleCount(25, records.length, 12), 25);
 });

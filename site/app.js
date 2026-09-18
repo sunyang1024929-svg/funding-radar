@@ -1,9 +1,16 @@
+import {
+  getNextVisibleCount,
+  getVisibleRecords,
+  LIST_BATCH_SIZE,
+} from "./listing.js";
+
 const state = {
   records: [],
   market: "China",
   search: "",
   industry: "",
   period: "all",
+  visibleCount: LIST_BATCH_SIZE,
 };
 
 const elements = {
@@ -16,6 +23,7 @@ const elements = {
   updatedAt: document.querySelector("#updated-at"),
   empty: document.querySelector("#empty-state"),
   error: document.querySelector("#error-state"),
+  loadMore: document.querySelector("#load-more"),
 };
 
 function formatDate(value) {
@@ -69,11 +77,14 @@ function filteredRecords() {
 
 function render() {
   const records = filteredRecords();
+  const visibleRecords = getVisibleRecords(records, state.visibleCount);
   elements.records.replaceChildren();
   elements.empty.hidden = records.length > 0;
-  elements.summary.textContent = `${state.market === "China" ? "中国公司" : "全球公司"} · ${records.length} 条融资记录`;
+  elements.summary.textContent = `${state.market === "China" ? "中国公司" : "全球公司"} · 展示 ${visibleRecords.length} / 共 ${records.length} 条融资记录`;
+  elements.loadMore.hidden = visibleRecords.length >= records.length || records.length === 0;
+  elements.loadMore.textContent = `继续输出 ${Math.min(LIST_BATCH_SIZE, records.length - visibleRecords.length)} 条`;
 
-  for (const [index, record] of records.entries()) {
+  for (const [index, record] of visibleRecords.entries()) {
     const row = document.createElement("article");
     row.className = "record";
     row.style.setProperty("--delay", `${index * 38}ms`);
@@ -118,25 +129,36 @@ function populateIndustries(records) {
 function setupEvents() {
   elements.search.addEventListener("input", (event) => {
     state.search = event.target.value;
+    state.visibleCount = LIST_BATCH_SIZE;
     render();
   });
   elements.industry.addEventListener("change", (event) => {
     state.industry = event.target.value;
+    state.visibleCount = LIST_BATCH_SIZE;
     render();
   });
   elements.period.addEventListener("change", (event) => {
     state.period = event.target.value;
+    state.visibleCount = LIST_BATCH_SIZE;
     render();
   });
   for (const button of elements.marketButtons) {
     button.addEventListener("click", () => {
       state.market = button.dataset.market;
+      state.visibleCount = LIST_BATCH_SIZE;
       elements.marketButtons.forEach((item) =>
         item.classList.toggle("is-active", item === button),
       );
       render();
     });
   }
+  elements.loadMore.addEventListener("click", () => {
+    state.visibleCount = getNextVisibleCount(
+      state.visibleCount,
+      filteredRecords().length,
+    );
+    render();
+  });
 }
 
 async function initialize() {
